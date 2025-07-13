@@ -35,22 +35,23 @@ A secure, full-featured diary web app built with **Golang**, **Vue.js**, **Mongo
 ---
 
 ## 📁 Project Structure
-
+```
 personal-diary/
-├─ server/ # Go backend
-│ ├─ config/
-│ ├─ controllers/
-│ ├─ middleware/
-│ ├─ models/
-│ ├─ routers/
-│ ├─ services/
-│ └─ utils/
-├─ personal-diary-frontend/ # Vue.js frontend
-│ ├─ src/
-│ ├─ public/
-│ └─ vite.config.js
-├─ docker-compose.yml
-└─ README.md
+├── server/ # Go backend
+│   ├── config/
+│   ├── controllers/
+│   ├── middleware/
+│   ├── models/
+│   ├── routers/
+│   ├── services/
+│   └── utils/
+├── personal-diary-frontend/ # Vue.js frontend
+│   ├── src/
+│   └── public/
+├── .vite.config.js
+├── docker-compose.yml
+└── README.md
+```
 
 
 ---
@@ -96,46 +97,6 @@ JWT_SECRET=your_jwt_secret_here
 OPENAI_API_KEY=your_openai_key_here
 GEMINI_API_KEY=your_gemini_api_key_here
 ```
-
-
----
-
-## ✅ Tips to Maximize Professionalism:
-| Element            | Suggestion                                                                 |
-|--------------------|-----------------------------------------------------------------------------|
-| 🖼 Banner           | Add a custom **project banner** at the top (Canva / Figma)                 |
-| 📸 Screenshots     | Upload `login`, `create diary`, `refine with AI`, and `profile` pages      |
-| 📝 README Styling   | Use Markdown bullets, emojis, headings, and spacing                        |
-| 🔗 GitHub Profile  | Make sure your profile `README.md` is updated too                          |
-
----
-
-If you'd like, I can generate a **custom banner image** or markdown **badges** for GitHub, Vue, Go, Docker, etc.
-
-Let me know if you'd like to:
-- Auto-generate a `CONTRIBUTING.md` file
-- Add GitHub Action CI workflows
-- Add badge previews (OpenAI, Docker, Vue, etc.)
-
-You're on the path to building an amazing portfolio 👨‍💻✨!
-
-
-📸 Screenshots (Coming Soon)
-Add images of your Login, Diary Editor, AI Suggestions, etc.
-
-🤝 Contributing
-Want to contribute? Awesome!
-
-1. Fork the repo
-
-2. Create a new branch: git checkout -b feature-name
-
-3. Make your changes and commit
-
-4. Push to your branch: git push origin feature-name
-
-5. Open a Pull Request
-
 
 ---
 
