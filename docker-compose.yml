@@ -1,0 +1,42 @@
+version: '3.8'
+
+services:
+  frontend:
+    build:
+      context: ./personal-diary-frontend
+    ports:
+      - "5173:80"
+    depends_on:
+      - backend
+    networks:
+      - personal-diary-net
+
+  backend:
+    build:
+      context: ./server
+    ports:
+      - "8080:8080"
+    env_file:
+      - ./server/.env
+    depends_on:
+      - mongo
+    networks:
+      - personal-diary-net
+
+  mongo:
+    image: mongo:6
+    container_name: personal-diary-mongo
+    restart: always
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo_data:/data/db
+    networks:
+      - personal-diary-net
+
+volumes:
+  mongo_data:
+
+networks:
+  personal-diary-net:
+    driver: bridge

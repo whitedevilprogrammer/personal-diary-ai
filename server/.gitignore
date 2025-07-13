@@ -1,0 +1,50 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, build output
+*.test
+*.out
+
+# Output of the go coverage tool
+*.coverprofile
+
+# Go workspace
+go.work
+go.work.sum
+
+# Dependency directories (vendor/)
+vendor/
+
+# Logs and debug files
+*.log
+
+# IDE/editor folders
+.vscode/
+.idea/
+*.swp
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.*
+
+# Node.js frontend files (if frontend is inside same repo)
+node_modules/
+dist/
+build/
+
+# Vue-specific cache
+*.local
+pnpm-lock.yaml
+yarn.lock
+npm-debug.log*
+
+# MongoDB dumps/backups
+dump/
