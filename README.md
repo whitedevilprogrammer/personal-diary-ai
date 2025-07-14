@@ -142,6 +142,23 @@ Easily update your thoughts with AI assistance and Markdown support.
 
 ---
 
+## 🔐 AES Encryption – Secure Payload Diary Entry
+
+This diary entry documents my experience with implementing **secure payload encryption using AES (Advanced Encryption Standard)** between the Vue.js frontend and Golang backend.
+
+It demonstrates:
+- 🔒 How sensitive data can be encrypted on the frontend
+- 🧩 How it is securely decrypted on the backend using the same AES key
+- ✅ Real-world use of cryptography in full stack applications
+
+<img src="https://github.com/user-attachments/assets/b69799b6-9cd7-4d7e-89f3-c460e0abaed9" width="100%" alt="AES Encryption Diary Entry" />
+
+> This implementation helps ensure data privacy between client and server in production-ready apps like this personal diary.
+
+---
+
+
+
 ✅ **👨‍💻 Author
 Ellalan Haridoss — Full Stack Developer (Golang | Vue.js)**
 - [GitHub: whitedevilprogrammer](https://github.com/whitedevilprogrammer)
