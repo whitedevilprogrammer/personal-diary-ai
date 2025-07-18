@@ -164,9 +164,4 @@ Ellalan Haridoss — Full Stack Developer (Golang | Vue.js)**
 - [GitHub: whitedevilprogrammer](https://github.com/whitedevilprogrammer)
 - [LinkedIn: ellalan-haridoss](https://www.linkedin.com/in/ellalan-haridoss)
 
-Let me know if you'd like help generating:
-- GitHub profile README
-- Project banner
-- GitHub badges for OpenAI, Vue, Docker, Go, etc.
-
-
+---
