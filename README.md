@@ -100,14 +100,68 @@ GEMINI_API_KEY=your_gemini_api_key_here
 
 ---
 
+## 📸 Screenshots
+
+A quick preview of the Personal Diary app powered by Golang, Vue.js, MongoDB, ChatGPT, and Gemini AI.
+
+---
+
+### 🏠 Dashboard — Diary Overview  
+An elegant dashboard displaying your AI-enhanced diary entries.  
+<img src="https://github.com/user-attachments/assets/7ec9a3a7-312a-49ec-80ce-4dbae91ac2c0" width="100%" alt="Diary Dashboard" />
+
+---
+
+### 🔐 Secure Login with Google OAuth (Golang)  
+Authenticate securely with Google using Go’s OAuth integration.  
+<img src="https://github.com/user-attachments/assets/04d41b95-d6d1-4894-a1b7-4147f84ceefe" width="100%" alt="Login Page" />
+
+---
+
+### 📝 Create a New Diary Entry  
+Simple, responsive UI for adding personal thoughts or reflections.  
+<img src="https://github.com/user-attachments/assets/c558c7ba-e019-43d6-a64a-2bdbc500eb8e" width="100%" alt="Create Diary Entry" />
+
+---
+
+### 🤖 Refine Thoughts with ChatGPT & Gemini AI  
+Use AI to enhance or rewrite selected text inside entries.  
+<img src="https://github.com/user-attachments/assets/4304e497-e93b-4e89-9875-7bdccf392075" width="100%" alt="AI Text Refinement" />
+
+---
+
+### 🌄 Auto-Generate Entry Backgrounds (Gemini AI)  
+Dynamically generate image backgrounds based on mood or text.  
+<img src="https://github.com/user-attachments/assets/58ae90fb-20ae-4d38-984c-64c5e4353db1" width="100%" alt="Gemini AI Background" />
+
+---
+
+### ✏️ Edit Diary Entries  
+Easily update your thoughts with AI assistance and Markdown support.  
+<img src="https://github.com/user-attachments/assets/dfae6f1e-9e77-4e79-aa77-e3998fdd1110" width="100%" alt="Edit Diary Entry" />
+
+---
+
+## 🔐 AES Encryption – Secure Payload Diary Entry
+
+This diary entry documents my experience with implementing **secure payload encryption using AES (Advanced Encryption Standard)** between the Vue.js frontend and Golang backend.
+
+It demonstrates:
+- 🔒 How sensitive data can be encrypted on the frontend
+- 🧩 How it is securely decrypted on the backend using the same AES key
+- ✅ Real-world use of cryptography in full stack applications
+
+<img src="https://github.com/user-attachments/assets/b69799b6-9cd7-4d7e-89f3-c460e0abaed9" width="100%" alt="AES Encryption Diary Entry" />
+
+> This implementation helps ensure data privacy between client and server in production-ready apps like this personal diary.
+
+---
+
+
+
 ✅ **👨‍💻 Author
 Ellalan Haridoss — Full Stack Developer (Golang | Vue.js)**
 - [GitHub: whitedevilprogrammer](https://github.com/whitedevilprogrammer)
 - [LinkedIn: ellalan-haridoss](https://www.linkedin.com/in/ellalan-haridoss)
 
-Let me know if you'd like help generating:
-- GitHub profile README
-- Project banner
-- GitHub badges for OpenAI, Vue, Docker, Go, etc.
-
-
+---
