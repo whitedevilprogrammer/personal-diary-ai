@@ -93,7 +93,8 @@
       <div class="entries-container">
         <div class="entries-header">
           <h2>Your Entries</h2>
-          <div v-if="entries.length === 0" class="no-entries">
+          <!-- if no entries -->
+          <div v-if="!entries || entries.length === 0" class="no-entries">
             <p>No entries yet. Create your first one!</p>
           </div>
         </div>
