@@ -100,6 +100,6 @@ func LoginWithGoogleOAuth(user GoogleUser) {
 }
 
 func init() {
-	client, _ := mongo.Connect(context.TODO(), options.Client().ApplyURI("mongodb://localhost:27017"))
-	userCollection = client.Database("oauthdb").Collection("users")
+	// Reuse the DB connection from config package
+	userCollection = config.DB.Database("oauthdb").Collection("users")
 }
