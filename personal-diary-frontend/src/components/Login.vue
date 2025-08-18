@@ -81,8 +81,8 @@
 import api from '../api'
 import { alertService } from '../utils/alert'
 import { useLoaderStore } from '../stores/loader'
-
-const googleAuthURL = "http://localhost:8080/auth/google/login"
+// Google OAuth URL using Vite environment variable
+const googleAuthURL = `${import.meta.env.VITE_BACKEND_URL}/auth/google/login`;
 
 export default {
   data() {

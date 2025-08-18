@@ -24,7 +24,8 @@
 import axios from "axios";
 import { encryptAES, decryptAES } from "./utils/aes"; // Adjust the import path as necessary
 
-const API_URL = "http://localhost:8080";
+// API URL using Vite environment variable
+const API_URL = import.meta.env.VITE_BACKEND_URL;
 const ENCRYPTION_AND_DECRYPTION = true; // Set to true if you want to encrypt the data
 
 const api = axios.create({

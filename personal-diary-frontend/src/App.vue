@@ -24,7 +24,8 @@
 
 <script>
 import Loader from './components/Loader.vue'
-const googleAuthURL = "http://localhost:8080/auth/google/login"
+// Google OAuth URL using Vite environment variable
+const googleAuthURL = `${import.meta.env.VITE_BACKEND_URL}/auth/google/login`;
 
 export default {
   name: 'App',
