@@ -7,6 +7,7 @@ import (
 	"io"
 	"log"
 	"net/http"
+	"os"
 	"personal-diary/config"
 	"personal-diary/middleware"
 	"personal-diary/models"
@@ -121,8 +122,8 @@ func GoogleCallback(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	// Redirect to frontend with token
-	redirectURL := fmt.Sprintf("http://localhost:5173/login?token=%s", tokenString)
+	// Redirect to frontend with token and Dynamic Host
+	redirectURL := fmt.Sprintf("http://%s:5173/login?token=%s", os.Getenv("HOST"), tokenString)
 	http.Redirect(w, r, redirectURL, http.StatusTemporaryRedirect)
 }
 

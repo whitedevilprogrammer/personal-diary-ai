@@ -17,7 +17,7 @@ import (
 
 func GetGoogleOAuthConfig() *oauth2.Config {
     return &oauth2.Config{
-        RedirectURL:  "http://localhost:8080/auth/google/callback",
+        RedirectURL:  "http://" + os.Getenv("HOST") + ":8080/auth/google/callback",
         ClientID:     os.Getenv("GOOGLE_CLIENT_ID"),
         ClientSecret: os.Getenv("GOOGLE_CLIENT_SECRET"),
         Scopes:       []string{
