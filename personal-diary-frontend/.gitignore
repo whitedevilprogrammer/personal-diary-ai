@@ -25,3 +25,6 @@ public/uploads
 *.njsproj
 *.sln
 *.sw?
+
+# environment variables
+.env
