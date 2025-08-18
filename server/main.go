@@ -72,11 +72,11 @@ func main() {
 
 	// Wrap with CORS middleware
 	handler := middleware.CORSMiddleware(r)
-
-	log.Println("Server running on http://localhost:8080")
+	
+	log.Println("Server running on http://" + os.Getenv("HOST") + ":" + os.Getenv("PORT"))
 	log.Printf("Static files will be served by Go server from: %s via /uploads/", absUploadDir)
 
-	if err := http.ListenAndServe(":8080", handler); err != nil {
+	if err := http.ListenAndServe(":"+os.Getenv("PORT"), handler); err != nil {
 		log.Fatal("Server failed to start:", err)
 	}
 }
